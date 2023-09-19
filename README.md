@@ -2,7 +2,7 @@
 <h3>A passionate Programmer from India</h3>
 
 
-- 🔭 ɪ’ᴍ ᴄᴜʀʀᴇɴᴛʟʏ ᴡᴏʀᴋɪɴɢ ᴏɴ **ᴡᴇʙ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ**
+- 🕸🧑‍💻 ɪ’ᴍ ᴄᴜʀʀᴇɴᴛʟʏ ᴡᴏʀᴋɪɴɢ ᴏɴ **ᴡᴇʙ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ**
 
-- 🔭📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎 email:gauravboy1122@gmail.com
+- 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎 𝚎𝚖𝚊𝚒𝚕: gauravboy1122@gmail.com
 
