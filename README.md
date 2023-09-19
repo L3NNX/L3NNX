@@ -2,9 +2,9 @@
 <h3>A passionate Programmer from India</h3>
 
 
-- 🔭 I’m currently working on **Web Development**
+- 🔭 ɪ’ᴍ ᴄᴜʀʀᴇɴᴛʟʏ ᴡᴏʀᴋɪɴɢ ᴏɴ **ᴡᴇʙ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ**
 
-- 📫 How to reach me **gauravboy1122@gmail.com**
+- 🔭📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎 **𝚐𝚊𝚞𝚛𝚊𝚟𝚋𝚘𝚢𝟷𝟷𝟸𝟸@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
