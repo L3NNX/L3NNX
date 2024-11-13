@@ -39,8 +39,10 @@
 
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=L3NNX&theme=transparent&hide_border=true)<br/>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=L3NNX&theme=transparent&hide_border=true" alt="GitHub Streak">
+</div>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 
