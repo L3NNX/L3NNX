@@ -1,6 +1,10 @@
 # 💫 About Me:
-🔭 I’m currently working on MERN<br>👯 I’m looking to collaborate on Projects<br>🤝 I’m looking for help with Backend<br>🌱 I’m currently learning JS<br>
-
+🔭 I'm currently working on building robust and scalable Full-Stack MERN Applications
+🌱 I'm continuously deepening my knowledge in Advanced JavaScript and Modern Web Development Practices
+👯 I'm eager to collaborate on innovative open-source projects and cutting-edge web applications
+🤝 I'm seeking mentorship and insights in Advanced Backend Architectures and Cloud Technologies
+💡 I'm passionate about creating clean, efficient, and user-friendly code
+🎯 My goal is to contribute to projects that make a positive impact on people's lives
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/serenity0497) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gaurav-debnath-716989272/) 
