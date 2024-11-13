@@ -7,9 +7,11 @@
 🎯 My goal is to contribute to projects that make a positive impact on people's lives</br>
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/serenity0497) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gaurav-debnath-716989272/) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=flat&logoWidth=30&height=30)](https://discord.gg/serenity0497)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=flat&logoWidth=30&height=30)](https://linkedin.com/in/gaurav-debnath-716989272/)
 
-[![](https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0&style=flat&logoWidth=30&height=30)](https://visitcount.itsvg.in)
+
 
 # 💻 Tech Stack:
 <a href="#"><img src="https://img.shields.io/badge/-%2300599C.svg?style=flat&logo=c&logoColor=white&logoWidth=30" height="30px"></a>
