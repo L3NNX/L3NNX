@@ -44,7 +44,10 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=L3NNX&theme=transparent&hide_border=true" alt="GitHub Streak">
 </div>
 
-  <img src="[https://github-readme-stats.vercel.app/api?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)">
+<div style="margin-top: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+</div>
+
 
 
 
