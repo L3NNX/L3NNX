@@ -8,27 +8,27 @@
 [![](https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0)](https://visitcount.itsvg.in)
 
 # 💻 Tech Stack:
-<a href="#"><img src="https://img.shields.io/badge/-%2300599C.svg?style=flat&logo=c&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23E34F26.svg?style=flat&logo=html5&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23000000.svg?style=flat&logo=vercel&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%230081CB.svg?style=flat&logo=mui&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23CB3837.svg?style=flat&logo=npm&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23646CFF.svg?style=flat&logo=vite&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-6DA55F?style=flat&logo=node.js&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-38B2AC.svg?style=flat&logo=tailwind-css&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-4479A1.svg?style=flat&logo=mysql&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-F05033.svg?style=flat&logo=git&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23121011.svg?style=flat&logo=github&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-161618.svg?style=flat&logo=radix-ui&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-EC5990.svg?style=flat&logo=reacthookform&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-FF4154?style=flat&logo=react%20query&logoColor=white&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-4a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220&logoWidth=35" height="35px"></a>
-<a href="#"><img src="https://img.shields.io/badge/-%23B4CA65.svg?style=flat&logo=ejs&logoColor=black&logoWidth=35" height="35px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%2300599C.svg?style=flat&logo=c&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23E34F26.svg?style=flat&logo=html5&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23000000.svg?style=flat&logo=vercel&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%230081CB.svg?style=flat&logo=mui&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23CB3837.svg?style=flat&logo=npm&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23646CFF.svg?style=flat&logo=vite&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-6DA55F?style=flat&logo=node.js&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-38B2AC.svg?style=flat&logo=tailwind-css&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-4479A1.svg?style=flat&logo=mysql&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-F05033.svg?style=flat&logo=git&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23121011.svg?style=flat&logo=github&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-161618.svg?style=flat&logo=radix-ui&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-EC5990.svg?style=flat&logo=reacthookform&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-FF4154?style=flat&logo=react%20query&logoColor=white&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-4a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220&logoWidth=30" height="30px"></a>
+<a href="#"><img src="https://img.shields.io/badge/-%23B4CA65.svg?style=flat&logo=ejs&logoColor=black&logoWidth=30" height="30px"></a>
 
 
 
