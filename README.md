@@ -27,10 +27,10 @@
 
 ---
 
-## 🧰 Tech Stack BentoGrid
+## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,ejs,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
 </p>
 
 ---
