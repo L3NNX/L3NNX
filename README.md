@@ -1,5 +1,5 @@
-<div align="center">
 ![logo](/header-1.jpg)
+<div align="center">
 # 👋 Hi, I'm Gaurav Debnath  
 💻 Full-Stack MERN Developer | 🌐 Open-Source Enthusiast
 
