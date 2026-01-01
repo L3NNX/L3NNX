@@ -20,7 +20,7 @@
 - Creating **clean, efficient & user-friendly** code
 - Seeking **mentorship** and contributing to projects that make a **positive impact**
 
----
+
 
 ## 🌐 Connect With Me
 
@@ -30,15 +30,13 @@
   <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0&style=for-the-badge" /></a>
 </p>
 
----
+
 
 ## 🧰 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
 </p>
-
----
 
 ## 📊 GitHub BentoBoard
 
@@ -50,12 +48,8 @@
 
 </div>
 
----
-
 ## ✍️ Dev Quote of the Day
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" />
 </p>
-
----
