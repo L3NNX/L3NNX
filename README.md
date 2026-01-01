@@ -13,17 +13,12 @@
 </p>
 
 
-## 🔭 What I'm Working On
-
 - Building **robust and scalable MERN stack applications**
 - Deepening my knowledge in **Advanced JavaScript & Modern Web Development**
 - Exploring **Advanced Backend Architectures & Cloud Technologies**
 - Creating **clean, efficient & user-friendly** code
 - Seeking **mentorship** and contributing to projects that make a **positive impact**
 
-
-
-## 🌐 Connect With Me
 
 <p align="center">
   <a href="https://discord.gg/serenity0497"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge" /></a>
@@ -32,14 +27,10 @@
 </p>
 
 
-
-## 🧰 Tech Stack
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
 </p>
 
-## 📊 GitHub BentoBoard
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
@@ -48,8 +39,6 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=tokyonight&hide_border=true&layout=compact" height="200" />
 
 </div>
-
-## ✍️ Dev Quote of the Day
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=github_dark" width="90%" height="350"/>
