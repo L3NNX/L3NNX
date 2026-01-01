@@ -1,4 +1,4 @@
-![Header](https://github.com/L3NNX/L3NNX/blob/main/header-1.jpg)
+![Header](https://github.com/L3NNX/L3NNX/blob/main/header.jpg)
 <div align="center">
 
 # 👋 Hi, I'm Gaurav Debnath  
