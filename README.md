@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=L3NNX&label=Profile%20visits&color=0092db&style=flat" alt="L3NNX" /> </p>
+  <img src="https://komarev.com/ghpvc/?username=L3NNX&label=Profile%20visits&color=0092db&style=flat" alt="L3NNX" />
   <img src="https://img.shields.io/badge/DevOps-Learning-brightgreen" alt="DevOps Badge" />
   <img src="https://img.shields.io/badge/MERN-Stack-ff69b4" alt="MERN Badge" />
   <img src="https://img.shields.io/badge/Next.js-React-blue" alt="Next.js Badge" />
