@@ -4,7 +4,8 @@
 💻 Full-Stack MERN Developer | 🌐 Open-Source Enthusiast
 
 </div>
-![Header Image](https://4kwallpapers.com/images/walls/thumbs_3t/13636.png)
+![Header Image](  <img src="https://raw.githubusercontent.com/L3NNX/L3NNX/header-1.jpg" width="100%" />)
+
 <p align="center">
   <img src="https://img.shields.io/badge/DevOps-Learning-brightgreen" alt="DevOps Badge" />
   <img src="https://img.shields.io/badge/MERN-Stack-ff69b4" alt="MERN Badge" />
