@@ -1,5 +1,6 @@
-![logo](/header-1.jpg)
+![logo]<img src="https://github.com/L3NNX/L3NNX/blob/main/header-1.jpg" height="70%" p="0"/>
 <div align="center">
+
 # 👋 Hi, I'm Gaurav Debnath  
 💻 Full-Stack MERN Developer | 🌐 Open-Source Enthusiast
 
@@ -11,6 +12,7 @@
   <img src="https://img.shields.io/badge/MERN-Stack-ff69b4" alt="MERN Badge" />
   <img src="https://img.shields.io/badge/Next.js-React-blue" alt="Next.js Badge" />
 </p>
+
 
 
 - Building **robust and scalable MERN stack applications**
