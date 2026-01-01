@@ -1,4 +1,4 @@
-![logo]<img src="https://github.com/L3NNX/L3NNX/blob/main/header-1.jpg" height="70%" p="0"/>
+![Header](https://github.com/L3NNX/L3NNX/blob/main/header-1.jpg)
 <div align="center">
 
 # 👋 Hi, I'm Gaurav Debnath  
