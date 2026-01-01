@@ -52,5 +52,5 @@
 ## ✍️ Dev Quote of the Day
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" width="90%" height="350"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=github_dark" width="90%" height="auto"/>
 </p>
