@@ -14,7 +14,6 @@
 </p>
 
 
-
 - Building **robust and scalable MERN stack applications**
 - Deepening my knowledge in **Advanced JavaScript & Modern Web Development**
 - Exploring **Advanced Backend Architectures & Cloud Technologies**
