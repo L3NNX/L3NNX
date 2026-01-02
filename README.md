@@ -21,13 +21,11 @@
 - Creating **clean, efficient & user-friendly** code
 - Seeking **mentorship** and contributing to projects that make a **positive impact**
 
-
 <p align="center">
   <a href="https://discord.gg/serenity0497"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge" /></a>
   <a href="https://linkedin.com/in/gaurav-debnath-716989272/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge" /></a>
   <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0&style=for-the-badge" /></a>
 </p>
-
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
