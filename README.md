@@ -13,7 +13,6 @@
   <img src="https://img.shields.io/badge/Next.js-React-blue" alt="Next.js Badge" />
 </p>
 
-
 - Building **robust and scalable MERN stack applications**
 - Deepening my knowledge in **Advanced JavaScript & Modern Web Development**
 - Exploring **Advanced Backend Architectures & Cloud Technologies**
