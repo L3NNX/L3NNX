@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,cloudflare,postman,npm,pnpm,vite,materialui,radixui,reacthookform,supabase,reactquery&theme=light" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,cloudflare,supabase,postman,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
 </p>
 
 
