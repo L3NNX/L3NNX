@@ -12,15 +12,15 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FF6B6B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Building+robust+%26+scalable+web+apps+%F0%9F%9A%80;React+%7C+Node.js+%7C+MongoDB+%7C+Next.js+%E2%9A%A1;Always+learning%2C+always+shipping+%F0%9F%92%A1" alt="Typing SVG" />
 
-<br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=L3NNX&label=Profile+Views&color=FF6B6B&style=flat-square)
-&nbsp;&nbsp;
-![Status](https://img.shields.io/static/v1?label=Status&message=Open+to+Collaborate&color=6BCB77&style=flat-square)
-&nbsp;&nbsp;
-![Focus](https://img.shields.io/static/v1?label=Focus&message=MERN+Stack&color=4D96FF&style=flat-square)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=L3NNX&label=Profile%20Views&color=58a6ff&style=flat-square" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Collab-3fb950?style=flat-square&logo=github" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-MERN%20Stack-58a6ff?style=flat-square" />
+</p>
 
-<br/>
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/serenity0497)
 &nbsp;
