@@ -10,21 +10,21 @@
 
 ### `Full-Stack MERN Developer` · `Open-Source Enthusiast` · `Lifelong Learner`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FF6B6B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Building+robust+%26+scalable+web+apps+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Next.js+⚡;Always+learning%2C+always+shipping+💡" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FF6B6B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Building+robust+%26+scalable+web+apps+%F0%9F%9A%80;React+%7C+Node.js+%7C+MongoDB+%7C+Next.js+%E2%9A%A1;Always+learning%2C+always+shipping+%F0%9F%92%A1" alt="Typing SVG" />
 
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=L3NNX&label=Profile+Views&color=FF6B6B&style=flat-square)
-&nbsp;
-![Available](https://img.shields.io/badge/Status-Open%20to%20Collaborate-6BCB77?style=flat-square)
-&nbsp;
-![Focus](https://img.shields.io/badge/Focus-MERN%20Stack-4D96FF?style=flat-square)
+&nbsp;&nbsp;
+![Status](https://img.shields.io/static/v1?label=Status&message=Open+to+Collaborate&color=6BCB77&style=flat-square)
+&nbsp;&nbsp;
+![Focus](https://img.shields.io/static/v1?label=Focus&message=MERN+Stack&color=4D96FF&style=flat-square)
 
 <br/>
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/serenity0497)
+&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/gaurav-debnath-716989272/)
-[![Visit Count](https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=6&style=for-the-badge)](https://visitcount.itsvg.in)
 
 </div>
 
@@ -45,15 +45,11 @@ const gaurav = {
 };
 ```
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=radical&hide_border=true&layout=compact&langs_count=6" width="300" />
-
 - 🔨 Building **robust & scalable MERN stack applications**
 - 📚 Deepening my knowledge in **Advanced JavaScript & Modern Web Dev**
 - ☁️ Exploring **Backend Architectures & Cloud Technologies**
 - ✨ Creating **clean, efficient & user-friendly** code
 - 🤝 Seeking **mentorship** & impactful open-source projects
-
-<br clear="right"/>
 
 ---
 
@@ -105,15 +101,11 @@ const gaurav = {
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=L3NNX&theme=redical&hide_border=true&area=true&color=FF6B6B&line=FFD93D&point=6BCB77" width="96%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=radical&hide_border=true&layout=compact&langs_count=8" height="160" />
 </div>
 
----
-
-## 🏆 GitHub Trophies
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=L3NNX&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=L3NNX&theme=redical&hide_border=true&area=true&color=FF6B6B&line=FFD93D&point=6BCB77" width="96%" />
 </div>
 
 ---
