@@ -9,7 +9,7 @@
 
 <div align="center">
 
-# I don’t just learn tech — I build with it.
+# Think → Build → Ship
 
 ### `Full-Stack MERN Developer` · `Open-Source Enthusiast` · `Lifelong Learner`
 
