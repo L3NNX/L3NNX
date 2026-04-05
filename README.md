@@ -9,7 +9,7 @@
 
 <div align="center">
 
-# 👋 Hey, I'm **Gaurav Debnath**
+# I don’t just learn tech — I build with it.
 
 ### `Full-Stack MERN Developer` · `Open-Source Enthusiast` · `Lifelong Learner`
 
