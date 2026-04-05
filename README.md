@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/L3NNX/L3NNX/blob/main/bannerr.gif" width="100%" alt="header" />
+  <img src="https://github.com/L3NNX/L3NNX/blob/main/banner.gif" width="100%" alt="header" />
 </div>
 
 <!-- Terminal Intro -->
