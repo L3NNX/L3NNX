@@ -47,7 +47,7 @@ const gaurav = {
   currently: ["Building scalable MERN apps", "Exploring Cloud & DevOps", "Contributing to Open Source"],
   learning : ["Advanced JavaScript", "Backend Architectures", "Cloud Technologies"],
   goals    : ["Mentorship", "Meaningful projects", "Positive impact"],
-  fun_fact: "I write clean code so future me doesn't hate past me 😄"
+  fun_fact : "I write clean code so future me doesn't hate past me 😄"
 };
 ```
 
