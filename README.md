@@ -35,7 +35,6 @@
   </a>
 </p>
 
----
 
 ## 🎨 About Me
 
@@ -48,7 +47,7 @@ const gaurav = {
   currently: ["Building scalable MERN apps", "Exploring Cloud & DevOps", "Contributing to Open Source"],
   learning : ["Advanced JavaScript", "Backend Architectures", "Cloud Technologies"],
   goals    : ["Mentorship", "Meaningful projects", "Positive impact"],
-  motto    : "Write code humans can read, not just machines 💡"
+  fun_fact: "I write clean code so future me doesn't hate past me 😄"
 };
 ```
 
@@ -58,7 +57,7 @@ const gaurav = {
 - ✨ Creating **clean, efficient & user-friendly** code
 - 🤝 Seeking **mentorship** & impactful open-source projects
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -101,7 +100,7 @@ const gaurav = {
   <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white" />
 </p>
 
----
+
 
 ## 📊 GitHub Stats
 
@@ -119,7 +118,7 @@ const gaurav = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=L3NNX&theme=redical&hide_border=true&area=true&color=FF6B6B&line=FFD93D&point=6BCB77" width="96%" />
 </p>
 
----
+
 
 ## 💬 Quote of the Day
 
@@ -127,7 +126,7 @@ const gaurav = {
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </p>
 
----
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 
