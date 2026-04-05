@@ -1,89 +1,43 @@
 ![Header](https://github.com/L3NNX/L3NNX/blob/main/header.jpg)
+<div align="center">
 
-<h1 align="center">Gaurav Debnath</h1>
+# 👋 Hi, I'm Gaurav Debnath
+💻 Full-Stack MERN Developer | 🌐 Open-Source Enthusiast
+
+</div>
 
 <p align="center">
-building things that actually work — not just tutorials
+<img src="https://komarev.com/ghpvc/?username=L3NNX&label=Profile%20visits&color=0092db&style=flat" alt="L3NNX" />
+<img src="https://img.shields.io/badge/DevOps-Learning-brightgreen" alt="DevOps Badge" />
+<img src="https://img.shields.io/badge/MERN-Stack-ff69b4" alt="MERN Badge" />
+<img src="https://img.shields.io/badge/Next.js-React-blue" alt="Next.js Badge" />
+</p>
+
+- Building **robust and scalable MERN stack applications**
+- Deepening my knowledge in **Advanced JavaScript & Modern Web Development**
+- Exploring **Advanced Backend Architectures & Cloud Technologies**
+- Creating **clean, efficient & user-friendly** code
+- Seeking **mentorship** and contributing to projects that make a **positive impact**
+
+<p align="center">
+<a href="https://discord.gg/serenity0497"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge" /></a>
+<a href="https://linkedin.com/in/gaurav-debnath-716989272/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge" /></a>
+<a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=L3NNX&icon=10&color=0&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=L3NNX&color=grey" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,bootstrap,vercel,git,github,figma,latex,cloudflare,supabase,postman,npm,pnpm,vite,materialui,radixui,reacthookform,reactquery&theme=light" />
 </p>
 
----
 
-### // who am i?
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-i write code that solves real problems  
-not just “projects” — systems people can actually use  
+<img src="https://github-readme-stats.vercel.app/api?username=L3NNX&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="200" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=L3NNX&theme=tokyonight&hide_border=true" height="200" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L3NNX&theme=tokyonight&hide_border=true&layout=compact" height="200" />
 
-started with frontend curiosity → now obsessed with **full-stack architecture**
-
----
-
-### // what i care about
-
-- performance > fancy UI  
-- clean backend > messy features  
-- shipping > planning  
-
----
-
-### // current obsession
-
-```
-→ scalable backend systems  
-→ devops (learning to not break production)  
-→ building things end-to-end
-```
-
----
-
-### // stack i actually use
+</div>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,next,nodejs,express,mongodb,mysql,tailwind,cloudflare,supabase" />
+<img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=github_dark"/>
 </p>
-
----
-
-### // proof of work
-
-```
-wedding platform
-→ file uploads, admin control, secure access
-
-discord bot
-→ event-driven, real-time automation
-
-custom file ui
-→ fixed broken apache UI into usable system
-```
-
----
-
-### // stats (because everyone has them)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=L3NNX&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=L3NNX&theme=tokyonight&hide_border=true" height="160"/>
-</p>
-
----
-
-### // reach out
-
-<p align="center">
-  <a href="https://discord.gg/serenity0497">discord</a> •
-  <a href="https://linkedin.com/in/gaurav-debnath-716989272/">linkedin</a>
-</p>
-
----
-
-### // final note
-
-i'm a fresher  
-
-but i don’t think like one  
-
-give me a real problem — not a tutorial
