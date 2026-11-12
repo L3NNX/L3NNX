@@ -354,7 +354,7 @@ def fmt_day(d):
 # Cards
 # --------------------------------------------------------------------------
 def load_portrait():
-    # First try a dedicated portrait image
+    # Only load a dedicated portrait photo (not ascii-art)
     for ext in ("png", "jpg", "jpeg", "webp"):
         p = ROOT / "assets" / f"portrait.{ext}"
         if p.exists():
@@ -371,7 +371,11 @@ def load_portrait():
                 mime = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg",
                         "webp": "image/webp"}[ext]
                 return mime, base64.b64encode(p.read_bytes()).decode()
-    # Fall back to ascii-art.png if present
+    return None
+
+
+def load_ascii_png():
+    """Load assets/ascii-art.png for rectangular display in the hero card."""
     p = ROOT / "assets" / "ascii-art.png"
     if p.exists():
         return "image/png", base64.b64encode(p.read_bytes()).decode()
@@ -426,7 +430,8 @@ def build_hero():
     h = 300
     c = Card("hero", W, h, CARD_DELAY["hero"], f"{' '.join(NAME)}, full-stack developer. Think, build, ship.")
     portrait = load_portrait()
-    has_right = portrait is not None
+    ascii_png = None if portrait else load_ascii_png()
+    has_right = portrait or ascii_png
     right = 650 if has_right else 832
     c.defs.append(
         f'<clipPath id="card"><rect width="{W}" height="{h}" rx="18"/></clipPath>'
@@ -492,6 +497,7 @@ def build_hero():
         x += w + 8
 
     if portrait:
+        # Real photo → circle with spinning ring
         mime, b64 = portrait
         cx, cy2, r = 760, 176, 72
         c.defs.append(f'<clipPath id="pc"><circle cx="{cx}" cy="{cy2}" r="{r}"/></clipPath>')
@@ -501,7 +507,19 @@ def build_hero():
         c.smil.append(
             f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.brand}" stroke-width="2" '
             f'stroke-dasharray="40 412" stroke-linecap="round" opacity="0">'
-            f'<set attributeName="opacity" to="1" begin="1s"/><animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/></circle>')
+            f'<set attributeName="opacity" to="1" begin="1s"/>'
+            f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/>'
+            f'</circle>')
+    elif ascii_png:
+        # ASCII art PNG → tall rounded rectangle, full image, no crop distortion
+        mime, b64 = ascii_png
+        ax, ay, aw, ah = 666, 12, 196, 276
+        c.defs.append(f'<clipPath id="ac"><rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="14"/></clipPath>')
+        c.add(f'<g{c.a("pop", 0.4)}>'
+              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="14" fill="{T.chip}" stroke="{T.border}"/>'
+              f'<image href="data:{mime};base64,{b64}" x="{ax}" y="{ay}" width="{aw}" height="{ah}" '
+              f'clip-path="url(#ac)" preserveAspectRatio="xMidYMid meet"/>'
+              f'</g>')
 
     # decorative light sweep along the top edge
     c.smil.append(
