@@ -584,6 +584,16 @@ def build_graph(data, days):
     c.add(c.text(28, 44, "Contribution graph", SANS8, 20, T.text, "up", 0))
     c.add(c.text(W - 28, 44, f"{total:,} contributions in {dt.date.today().year}", MONO4, 12, T.muted, "up", 0.1, anchor="end"))
 
+    # Pad days forward to Dec 31 of current year (future days = 0 contributions)
+    year = dt.date.today().year
+    end_of_year = dt.date(year, 12, 31)
+    if days:
+        last_date = days[-1][0]
+        pad = last_date + dt.timedelta(days=1)
+        while pad <= end_of_year:
+            days = list(days) + [(pad, 0)]
+            pad += dt.timedelta(days=1)
+
     # weeks start on Sunday (GitHub style)
     first = days[0][0]
     offset = (first.weekday() + 1) % 7
