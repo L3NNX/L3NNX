@@ -373,11 +373,57 @@ def load_portrait():
     return None
 
 
+def load_ascii_art():
+    """Convert assets/ascii-art.txt into a PNG image and return (mime, base64).
+
+    Each character is mapped to a brightness value; the result is a grayscale
+    PNG rendered with Pillow.  Returns None if the file is missing or Pillow is
+    not available.
+    """
+    p = ROOT / "assets" / "ascii-art.txt"
+    if not p.exists():
+        return None
+    try:
+        from PIL import Image as PILImage
+    except ImportError:
+        return None
+
+    text = p.read_text(encoding="utf-8", errors="replace")
+    lines = text.splitlines()
+    if not lines:
+        return None
+
+    # Brightness map: '#' darkest → ' ' lightest (matches typical ASCII art)
+    BRIGHT = {c: v for c, v in zip(
+        "@%#*+=-:. ",
+        [0, 20, 35, 60, 90, 120, 150, 180, 210, 240]
+    )}
+
+    cols = max(len(l) for l in lines)
+    rows = len(lines)
+
+    img = PILImage.new("L", (cols, rows), 240)
+    px = img.load()
+    for y, line in enumerate(lines):
+        for x, ch in enumerate(line):
+            px[x, y] = BRIGHT.get(ch, 128)
+
+    # Scale up so it looks good at card dimensions (144 × 144 display px)
+    OUT_SIZE = 288
+    img = img.resize((OUT_SIZE, OUT_SIZE), PILImage.LANCZOS)
+
+    buf = io.BytesIO()
+    img.save(buf, "PNG", optimize=True)
+    return "image/png", base64.b64encode(buf.getvalue()).decode()
+
+
 def build_hero():
     h = 300
     c = Card("hero", W, h, CARD_DELAY["hero"], f"{' '.join(NAME)}, full-stack developer. Think, build, ship.")
     portrait = load_portrait()
-    right = 650 if portrait else 832
+    ascii_art = None if portrait else load_ascii_art()
+    has_right = portrait or ascii_art
+    right = 650 if has_right else 832
     c.defs.append(
         f'<clipPath id="card"><rect width="{W}" height="{h}" rx="18"/></clipPath>'
         f'<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="{T.brand}" stop-opacity="0"/>'
@@ -404,7 +450,7 @@ def build_hero():
 
     # status pill
     pill_w = text_w(STATUS, MONO4, 12) + 44
-    px = 760 - pill_w / 2 if portrait else 832 - pill_w
+    px = 760 - pill_w / 2 if has_right else 832 - pill_w
     py = 30
     c.add(f'<g{c.a("fade", 0.9)}><rect x="{n(px)}" y="{py}" width="{n(pill_w)}" height="28" rx="14" '
           f'fill="{T.chip}" stroke="{T.border}"/>'
@@ -452,6 +498,19 @@ def build_hero():
             f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.brand}" stroke-width="2" '
             f'stroke-dasharray="40 412" stroke-linecap="round" opacity="0">'
             f'<set attributeName="opacity" to="1" begin="1s"/><animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/></circle>')
+    elif ascii_art:
+        mime, b64 = ascii_art
+        # Render ASCII art in a rounded rect on the right, with a subtle brand tint overlay
+        ax, ay, aw, ah = 672, 18, 180, 264
+        c.defs.append(f'<clipPath id="ac"><rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12"/></clipPath>')
+        c.add(f'<g{c.a("pop", 0.4)}>'
+              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12" fill="{T.chip}" stroke="{T.border}"/>'
+              f'<image href="data:{mime};base64,{b64}" x="{ax}" y="{ay}" width="{aw}" height="{ah}" '
+              f'clip-path="url(#ac)" preserveAspectRatio="xMidYMid slice"/>'
+              # brand colour overlay at low opacity for the signature coral tint
+              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12" '
+              f'fill="{T.brand}" opacity=".08"/>'
+              f'</g>')
 
     # decorative light sweep along the top edge
     c.smil.append(
