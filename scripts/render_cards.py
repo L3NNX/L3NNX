@@ -511,15 +511,21 @@ def build_hero():
             f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/>'
             f'</circle>')
     elif ascii_png:
-        # ASCII art PNG → tall rounded rectangle, full image, no crop distortion
+        # ASCII art PNG → bigger circle (r=100 vs portrait's r=72)
         mime, b64 = ascii_png
-        ax, ay, aw, ah = 666, 12, 196, 276
-        c.defs.append(f'<clipPath id="ac"><rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="14"/></clipPath>')
+        cx, cy2, r = 752, 162, 100
+        c.defs.append(f'<clipPath id="ac"><circle cx="{cx}" cy="{cy2}" r="{r}"/></clipPath>')
         c.add(f'<g{c.a("pop", 0.4)}>'
-              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="14" fill="{T.chip}" stroke="{T.border}"/>'
-              f'<image href="data:{mime};base64,{b64}" x="{ax}" y="{ay}" width="{aw}" height="{ah}" '
-              f'clip-path="url(#ac)" preserveAspectRatio="xMidYMid meet"/>'
+              f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.border}" stroke-width="2"/>'
+              f'<image href="data:{mime};base64,{b64}" x="{cx - r}" y="{cy2 - r}" width="{2 * r}" height="{2 * r}" '
+              f'clip-path="url(#ac)" preserveAspectRatio="xMidYMid slice"/>'
               f'</g>')
+        c.smil.append(
+            f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.brand}" stroke-width="2" '
+            f'stroke-dasharray="40 412" stroke-linecap="round" opacity="0">'
+            f'<set attributeName="opacity" to="1" begin="1s"/>'
+            f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/>'
+            f'</circle>')
 
     # decorative light sweep along the top edge
     c.smil.append(
