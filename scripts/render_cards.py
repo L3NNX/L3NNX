@@ -459,8 +459,9 @@ def build_hero():
 
     # status pill
     pill_w = text_w(STATUS, MONO4, 12) + 44
-    px = 760 - pill_w / 2 if has_right else 832 - pill_w
-    py = 30
+    cx_pill = 752 if has_right else 832
+    px = cx_pill - pill_w / 2 if has_right else 832 - pill_w
+    py = 16
     c.add(f'<g{c.a("fade", 0.9)}><rect x="{n(px)}" y="{py}" width="{n(pill_w)}" height="28" rx="14" '
           f'fill="{T.chip}" stroke="{T.border}"/>'
           f'<circle cx="{n(px + 18)}" cy="{py + 14}" r="4" fill="{T.green}"/>'
@@ -499,7 +500,7 @@ def build_hero():
     if portrait:
         # Real photo → circle with spinning ring
         mime, b64 = portrait
-        cx, cy2, r = 760, 176, 72
+        cx, cy2, r = 752, 175, 78
         c.defs.append(f'<clipPath id="pc"><circle cx="{cx}" cy="{cy2}" r="{r}"/></clipPath>')
         c.add(f'<g{c.a("pop", 0.4)}><circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.border}" stroke-width="2"/>'
               f'<image href="data:{mime};base64,{b64}" x="{cx - r}" y="{cy2 - r}" width="{2 * r}" height="{2 * r}" '
@@ -511,9 +512,9 @@ def build_hero():
             f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/>'
             f'</circle>')
     elif ascii_png:
-        # ASCII art PNG → bigger circle (r=100 vs portrait's r=72)
+        # ASCII art PNG → bigger circle with comfortable gap below the pill
         mime, b64 = ascii_png
-        cx, cy2, r = 752, 162, 100
+        cx, cy2, r = 752, 175, 90
         c.defs.append(f'<clipPath id="ac"><circle cx="{cx}" cy="{cy2}" r="{r}"/></clipPath>')
         c.add(f'<g{c.a("pop", 0.4)}>'
               f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.border}" stroke-width="2"/>'
