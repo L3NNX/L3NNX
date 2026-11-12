@@ -354,6 +354,7 @@ def fmt_day(d):
 # Cards
 # --------------------------------------------------------------------------
 def load_portrait():
+    # First try a dedicated portrait image
     for ext in ("png", "jpg", "jpeg", "webp"):
         p = ROOT / "assets" / f"portrait.{ext}"
         if p.exists():
@@ -361,7 +362,7 @@ def load_portrait():
                 from PIL import Image
                 im = Image.open(p).convert("RGB")
                 s = min(im.size)
-                l, t = (im.width - s) // 2, (im.height - s) // 3  # bias towards the top (faces)
+                l, t = (im.width - s) // 2, (im.height - s) // 3
                 im = im.crop((l, max(0, t), l + s, max(0, t) + s)).resize((320, 320))
                 buf = io.BytesIO()
                 im.save(buf, "JPEG", quality=82)
@@ -370,6 +371,10 @@ def load_portrait():
                 mime = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg",
                         "webp": "image/webp"}[ext]
                 return mime, base64.b64encode(p.read_bytes()).decode()
+    # Fall back to ascii-art.png if present
+    p = ROOT / "assets" / "ascii-art.png"
+    if p.exists():
+        return "image/png", base64.b64encode(p.read_bytes()).decode()
     return None
 
 
@@ -421,8 +426,7 @@ def build_hero():
     h = 300
     c = Card("hero", W, h, CARD_DELAY["hero"], f"{' '.join(NAME)}, full-stack developer. Think, build, ship.")
     portrait = load_portrait()
-    ascii_art = None if portrait else load_ascii_art()
-    has_right = portrait or ascii_art
+    has_right = portrait is not None
     right = 650 if has_right else 832
     c.defs.append(
         f'<clipPath id="card"><rect width="{W}" height="{h}" rx="18"/></clipPath>'
@@ -498,19 +502,6 @@ def build_hero():
             f'<circle cx="{cx}" cy="{cy2}" r="{r + 8}" fill="none" stroke="{T.brand}" stroke-width="2" '
             f'stroke-dasharray="40 412" stroke-linecap="round" opacity="0">'
             f'<set attributeName="opacity" to="1" begin="1s"/><animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy2}" to="360 {cx} {cy2}" dur="14s" repeatCount="indefinite"/></circle>')
-    elif ascii_art:
-        mime, b64 = ascii_art
-        # Render ASCII art in a rounded rect on the right, with a subtle brand tint overlay
-        ax, ay, aw, ah = 672, 18, 180, 264
-        c.defs.append(f'<clipPath id="ac"><rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12"/></clipPath>')
-        c.add(f'<g{c.a("pop", 0.4)}>'
-              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12" fill="{T.chip}" stroke="{T.border}"/>'
-              f'<image href="data:{mime};base64,{b64}" x="{ax}" y="{ay}" width="{aw}" height="{ah}" '
-              f'clip-path="url(#ac)" preserveAspectRatio="xMidYMid slice"/>'
-              # brand colour overlay at low opacity for the signature coral tint
-              f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="12" '
-              f'fill="{T.brand}" opacity=".08"/>'
-              f'</g>')
 
     # decorative light sweep along the top edge
     c.smil.append(
