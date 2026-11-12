@@ -491,7 +491,7 @@ def build_activity(data, days):
         f'<stop offset="1" stop-color="{T.brand}" stop-opacity=".35"/></linearGradient>')
 
     c.add(c.text(32, 52, "Contributions per month", SANS8, 22, T.text, "up", 0))
-    c.add(c.text(32, 75, f"{total:,} contributions · last 12 months", MONO4, 12, T.muted, "up", 0.1))
+    c.add(c.text(32, 75, f"{total:,} contributions · {dt.date.today().year}", MONO4, 12, T.muted, "up", 0.1))
 
     stats = [
         (f"{cur}", "DAY STREAK", f"longest {best} days", T.brand),
@@ -578,11 +578,11 @@ def build_repo(i, repo):
 
 def build_graph(data, days):
     h = 228
-    c = Card("graph", W, h, CARD_DELAY["graph"], "Contribution graph for the last year")
+    c = Card("graph", W, h, CARD_DELAY["graph"], "Contribution graph for this year")
     card_bg(c)
     total = data.get("total") or sum(v for _, v in days)
     c.add(c.text(28, 44, "Contribution graph", SANS8, 20, T.text, "up", 0))
-    c.add(c.text(W - 28, 44, f"{total:,} contributions in the last year", MONO4, 12, T.muted, "up", 0.1, anchor="end"))
+    c.add(c.text(W - 28, 44, f"{total:,} contributions in {dt.date.today().year}", MONO4, 12, T.muted, "up", 0.1, anchor="end"))
 
     # weeks start on Sunday (GitHub style)
     first = days[0][0]

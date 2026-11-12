@@ -38,7 +38,8 @@ def main():
     if not token:
         raise SystemExit("Set GH_TOKEN or GITHUB_TOKEN")
     now = dt.datetime.now(dt.timezone.utc)
-    start = (now - dt.timedelta(days=364)).replace(hour=0, minute=0, second=0, microsecond=0)
+    # Fixed Jan–Dec window for the current calendar year
+    start = dt.datetime(now.year, 1, 1, 0, 0, 0, tzinfo=dt.timezone.utc)
 
     repo_q = "".join(
         f'r{i}: repository(owner: "{USER}", name: "{name}") {{ {REPO_FIELDS} }}\n'
